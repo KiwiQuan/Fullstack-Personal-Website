@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+header,
+.header-nav a {
+  color: white;
+}
+
+.header-nav a:hover {
+  text-decoration: underline;
+}
+
+.header-nav ul a {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(106, 0, 255, 0.575);
+  padding: 1.5rem;
+}
+
+.header-nav ul {
+  display: flex;
+  gap: 1rem;
+}
