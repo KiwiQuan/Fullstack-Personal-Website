@@ -37,3 +37,13 @@ header,
   display: flex;
   gap: 1rem;
 }
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .header-nav ul a {
+    font-size: 2rem;
+  }
+  .header-nav h2 {
+    display: none;
+  }
+}
