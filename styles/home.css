@@ -2,4 +2,35 @@ main {
   background-color: rgba(106, 0, 255, 0.901);
   color: white;
   padding: 1rem;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.main-content {
+  display: flex;
+  flex-basis: 80%;
+  padding: 1.5rem;
+  background-color: rgb(72, 0, 255);
+  border-radius: 5px;
+  gap: 1.5rem;
+}
+
+.text-section h1 {
+  padding-bottom: 1em;
+  font-size: 3rem;
+}
+
+.text-section p,
+.img-section p {
+  font-size: 2rem;
+}
+
+.img-section img {
+  width: 65%;
+}
+
+.text-section,
+.img-section {
+  width: 50%;
 }
