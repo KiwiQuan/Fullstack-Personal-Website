@@ -18,6 +18,10 @@ a {
   text-decoration: none;
 }
 
+.header-nav a:hover {
+  border-bottom: 2px solid white;
+}
+
 li {
   list-style-type: none;
 }
@@ -25,10 +29,6 @@ li {
 header,
 .header-nav a {
   color: white;
-}
-
-.header-nav a:hover {
-  text-decoration: underline;
 }
 
 .header-nav ul a {
@@ -48,6 +48,25 @@ header,
   gap: 1rem;
 }
 
+main {
+  background-color: rgba(106, 0, 255, 0.901);
+  color: white;
+  padding: 1rem;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-content {
+  display: flex;
+  flex-basis: 80%;
+  padding: 1.5rem;
+  background-color: rgb(72, 0, 255);
+  border-radius: 5px;
+  gap: 1.5rem;
+}
+
 footer {
   background-color: rgba(106, 0, 255, 0.575);
   color: white;
@@ -62,5 +81,11 @@ footer {
   }
   .header-nav h2 {
     display: none;
+  }
+  .header-nav {
+    justify-content: center;
+  }
+  .main-content {
+    flex-basis: 100%;
   }
 }
